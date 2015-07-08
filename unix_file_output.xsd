@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:sx="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="unix_file_output">
+  <xs:complexType>
+    <xs:all>
+      <xs:element name="identifier" type="xs:string"/>
+      <xs:element name="version" type="xs:string"/>
+      <xs:element name="output" type="xs:string"/>
+      <xs:element name="mimetype" type="xs:string"/>
+      <xs:element name="magiclocation" type="xs:string"/>
+    </xs:all>
+  </xs:complexType>
+</xs:element>
