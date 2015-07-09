@@ -47,21 +47,5 @@ the file.
 Schema
 ------
 
-```xml
-<?xml version="1.0"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
-<xs:element name="unix_file_output">
-  <xs:complexType>
-    <xs:all>
-      <xs:element name="identifier" type="xs:string"/>
-      <xs:element name="version" type="xs:string"/>
-      <xs:element name="output" type="xs:string"/>
-      <xs:element name="mimetype" type="xs:string"/>
-      <xs:element name="magicLocation" type="xs:string"/>
-    </xs:all>
-  </xs:complexType>
-</xs:element>
-
-</xs:schema>
-```
+The actual schema can be found
+[here](https://github.com/unt-libraries/xml-schemas/blob/master/unix_file_output/unix_file_output.xsd).
