@@ -49,7 +49,7 @@ Schema
 
 ```xml
 <?xml version="1.0"?>
-<xs:schema xmlns:sx="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
 <xs:element name="unix_file_output">
   <xs:complexType>
@@ -58,8 +58,10 @@ Schema
       <xs:element name="version" type="xs:string"/>
       <xs:element name="output" type="xs:string"/>
       <xs:element name="mimetype" type="xs:string"/>
-      <xs:element name="magiclocation" type="xs:string"/>
+      <xs:element name="magicLocation" type="xs:string"/>
     </xs:all>
   </xs:complexType>
 </xs:element>
+
+</xs:schema>
 ```
