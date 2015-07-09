@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<unix_file_output>
+<unixFileOutput>
     <magicLocation>asdfasdf</magicLocation>
     <version>1.0</version>
     <output>something</output>
-    <mimetype>something</mimetype>
+    <mimeType>something</mimeType>
     <identifier>asldf</identifier>
-</unix_file_output>
+</unixFileOutput>

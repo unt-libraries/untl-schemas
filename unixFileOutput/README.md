@@ -5,7 +5,7 @@ About
 -----
 
 This schema defines what is considered by the UNT Libraries to be a valid
-unix_file_output XML element. This element is a representation of the output
+unixFileOutput XML element. This element is a representation of the output
 obtained when executing the `file` program on a particular file in a UNIX
 shell. This element in no way refers to the actual contents of any particular
 file.
@@ -14,13 +14,13 @@ Requirements
 ------------
 
 ### Root Element ###
-The root element must be `<unix_file_output>`. No attributes are allowed. This
+The root element must be `<unixFileOutput>`. No attributes are allowed. This
 element contains the following 5 required child elements:
 
 * `<identifier>`
 * `<version>`
 * `<output>`
-* `<mimetype>`
+* `<mimeType>`
 * `<magicLocation>`
 
 Note that these child elements can appear in any order, so long as they all
@@ -38,7 +38,7 @@ The `<output>` child element is a string containing the output obtained when the
 file program was run.
 
 ### Mime-Type Element ###
-The `<mimetype>` child element is a string containing the mime-type of the file.
+The `<mimeType>` child element is a string containing the mime-type of the file.
 
 ### Magic Location ###
 The `<magicLocation>` child element is a string containing the magic location of
@@ -48,4 +48,4 @@ Schema
 ------
 
 The actual schema can be found
-[here](https://github.com/unt-libraries/xml-schemas/blob/master/unix_file_output/unix_file_output.xsd).
+[here](https://github.com/unt-libraries/xml-schemas/blob/master/unixFileOutput/unixFileOutput.xsd).
