@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://digital2.library.unt.edu/unixFileOutput.xsd"
+    xmlns="http://digital2.library.unt.edu/unixFileOutput.xsd"
+    elementFormDefault="qualified">
 
 <xs:element name="unixFileOutput">
   <xs:complexType>
