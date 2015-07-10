@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<unixFileOutput>
-    <magicLocation>asdfasdf</magicLocation>
-    <version>1.0</version>
-    <output>something</output>
-    <mimeType>something</mimeType>
-    <identifier>asldf</identifier>
-</unixFileOutput>
+<ufo:unixFileOutput xmlns:ufo="http://digital2.library.unt.edu/unixFileOutput.xsd">
+    <ufo:magicLocation>asdfasdf</ufo:magicLocation>
+    <ufo:version>1.0</ufo:version>
+    <ufo:output>something</ufo:output>
+    <ufo:mimeType>something</ufo:mimeType>
+    <ufo:identifier>asldf</ufo:identifier>
+</ufo:unixFileOutput>

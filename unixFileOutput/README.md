@@ -14,8 +14,9 @@ Requirements
 ------------
 
 ### Root Element ###
-The root element must be `<unixFileOutput>`. No attributes are allowed. This
-element contains the following 5 required child elements:
+The root element must be `<unixFileOutput>`. The namespace is required to be
+set to `http://digital2.library.unt.edu/unixFileOutput.xsd`. This element must
+contain the following 5 child elements:
 
 * `<identifier>`
 * `<version>`
