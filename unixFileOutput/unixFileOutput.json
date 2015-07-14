@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "identifier": {"type": "string"},
+    "version": {"type": "string"},
+    "output": {"type": "string"},
+    "mimeType": {"type": "string"},
+    "magicLocation": {"type": "string"}
+  },
+  "required": ["identifier", "version", "output", "mimeType", "magicLocation"],
+  "maxProperties": 5
+}
