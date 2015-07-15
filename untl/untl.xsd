@@ -2,7 +2,7 @@
 
     <xs:annotation>
       <xs:documentation xml:lang="en">
-        UNTL Descriptive Metadata Scheme, 2015-03-05
+        UNTL Descriptive Metadata Schema, 2015-03-05
         
         by Mark Phillips (mark.phillips@unt.edu),
         
@@ -72,6 +72,3 @@
     </xs:element>
 
 </xs:schema>
-
-
-
