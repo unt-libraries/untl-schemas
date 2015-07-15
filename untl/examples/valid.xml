@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata>
+    <title qualifier="optional">string</title>
+    <creator qualifier="optional">
+        <name>required</name>
+        <type>optional</type>
+        <info>optional</info>
+    </creator>
+    <contributor qualifier="optional">
+        <name>required</name>
+        <type>optional</type>
+        <info>optional</info>
+    </contributor>
+    <publisher>
+        <name>optional</name>
+        <location>optional</location>
+        <info>optional</info>
+    </publisher>
+    <date qualifier="optional">string</date>
+    <language>string</language>
+    <description qualifier="optional">string</description>
+    <subject qualifier="optional">string</subject>
+    <primarySource>string</primarySource>
+    <coverage qualifier="optional">string</coverage>
+    <source qualifier="optional">string</source>
+    <citation qualifier="optional">string</citation>
+    <relation qualifier="optional">string</relation>
+    <collection>string</collection>
+    <institution>string</institution>
+    <rights qualifier="optional">string</rights>
+    <resourceType>string</resourceType>
+    <format>string</format>
+    <identifier qualifier="optional">string</identifier>
+    <degree qualifier="optional">string</degree>
+    <note qualifier="optional">string</note>
+    <meta qualifier="optional">string</meta>
+</metadata>
