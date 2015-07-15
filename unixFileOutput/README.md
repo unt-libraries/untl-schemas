@@ -1,19 +1,20 @@
-UNIX File Output XML Schema
-===========================
+UNIX File Output Schemas
+========================
 
 About
 -----
 
-This schema defines what is considered by the UNT Libraries to be a valid
-unixFileOutput XML element. This element is a representation of the output
+These schemas define what are considered by the UNT Libraries to be valid
+unixFileOutput XML/JSON. These instances are representations of the output
 obtained when executing the `file` program on a particular file in a UNIX
-shell. This element in no way refers to the actual contents of any particular
-file.
+shell.
 
 Requirements
 ------------
 
 ### Root Element ###
+
+#### XML ####
 The root element must be `<unixFileOutput>`. The namespace is required to be
 set to `http://digital2.library.unt.edu/unixFileOutput.xsd`. This element must
 contain the following 5 child elements:
@@ -27,26 +28,40 @@ contain the following 5 child elements:
 Note that these child elements can appear in any order, so long as they all
 occur exactly 1 time.
 
-### Identifier Element ###
-The `<identifier>` child element is a string containing the file identifier.
+#### JSON ####
+The root of the JSON document is an object containing the following keys:
 
-### Version Element ###
-The `<version>` child element is a string containing the version of the file
-program that was used.
+* "identifier":
+* "version":
+* "output":
+* "mimeType":
+* "magicLocation":
+
+Note that these keys can appear in any order, so long as they all appear
+exactly 1 time.
+
+### Identifier ###
+The `identifier` is a string containing the file identifier.
+
+### Version ###
+The `version` is a string containing the version of the file program that was
+used.
 
 ### Output ###
-The `<output>` child element is a string containing the output obtained when the
-file program was run.
+The `output` is a string containing the output obtained when the file program
+was run.
 
-### Mime-Type Element ###
-The `<mimeType>` child element is a string containing the mime-type of the file.
+### Mime-Type ###
+The `mimeType` is a string containing the mime-type of the file.
 
 ### Magic Location ###
-The `<magicLocation>` child element is a string containing the magic location of
-the file.
+The `magicLocation` is a string containing the magic location of the file.
 
-Schema
+Schemas
 ------
 
-The actual schema can be found
+The XML schema can be found
 [here](https://github.com/unt-libraries/xml-schemas/blob/master/unixFileOutput/unixFileOutput.xsd).
+
+The JSON schema can be found
+[here](https://github.com/unt-libraries/xml-schemas/blob/master/unixFileOutput/unixFileOutput.json).
