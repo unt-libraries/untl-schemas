@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata>
+  <title qualifier="officialtitle">
+    Documents related to the case of The State of Texas vs. Frank Ackerman,
+    cause no. 783, 1872
+  </title>
+  <creator qualifier="com">
+    <info>Deputy Clerk, District Court, Henderson County</info>
+    <type>per</type>
+    <name>Richardson, M. E.</name>
+  </creator>
+  <creator qualifier="com">
+    <info>Clerk, District Court, Henderson County</info>
+    <type>per</type>
+    <name>Thompson, Jeff. E.</name>
+  </creator>
+  <creator qualifier="com">
+    <info>Deputy Clerk, District Court, Henderson County</info>
+    <type>per</type>
+    <name>Holland, B. C.</name>
+  </creator>
+  <date qualifier="creation">1872</date>
+  <language>eng</language>
+  <description qualifier="content">
+    Documents related to the case of The State of Texas vs. Frank Ackerman,
+    accused of carrying arms, filed July 12, 1872. Documents include a letter of
+    indictment signed by grand jury foreman Phil W. Thompson, an application for
+    attachment, and a request for witnesses.
+  </description>
+  <description qualifier="physical">3 documents ; various sizes, folded, in an orange envelope 22 x 10 cm. Documents are handwritten in ink and pencil on paper and printed forms.</description>
+  <subject qualifier="UNTL-BS">Government and Law - Legal Documents</subject>
+  <subject qualifier="named_person">Ackerman, Frank</subject>
+  <subject qualifier="named_person">Ballard, W. H.</subject>
+  <primarySource>1</primarySource>
+  <coverage qualifier="placeName">
+    United States - Texas - Henderson County
+  </coverage>
+  <coverage qualifier="timePeriod">new-sou</coverage>
+  <coverage qualifier="sDate">1872-07-12</coverage>
+  <coverage qualifier="eDate">1872-10-05</coverage>
+  <collection>HDCC</collection>
+  <institution>HCDC</institution>
+  <resourceType>text_legal</resourceType>
+  <format>text</format>
+  <identifier qualifier="LOCAL-CONT-NO">cause no. 783</identifier>
+  <note qualifier="digitalPreservation">
+    creationAppName: Adobe Photoshop
+    creationAppVersion: CS
+    creationHardware: Epson Expression 10000XL</note>
+  <meta qualifier="meta-id">metapth104835</meta>
+  <meta qualifier="system">PTH</meta>
+  <meta qualifier="ark">ark:/67531/metapth104835</meta>
+  <meta qualifier="metadataCreationDate">2010-07-26, 16:27:33</meta>
+  <meta qualifier="metadataCreator">acpmaker</meta>
+</metadata>

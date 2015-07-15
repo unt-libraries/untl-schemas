@@ -1,0 +1,74 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        UNTL Descriptive Metadata Scheme, 2015-03-05
+        
+        by Mark Phillips (mark.phillips@unt.edu),
+        
+        Values for qualifiers and elements are often pulled from
+        http://digital2.library.unt.edu/vocabularies/
+
+        This schema should be available at http://digital2.library.unt.edu/untl.xsd
+      </xs:documentation>
+    </xs:annotation>
+  
+    <xs:simpleType name="simple">
+      <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <xs:complexType name="qualified">
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="qualifier" type="xs:string" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:complexType name="agent">
+      <xs:all>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="type" type="xs:string" minOccurs="0"/>
+        <xs:element name="info" type="xs:string" minOccurs="0"/>
+      </xs:all>
+      <xs:attribute name="qualifier" type="xs:string" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="publisher">
+      <xs:all>
+        <xs:element name="name" type="xs:string" minOccurs="0"/>
+        <xs:element name="location" type="xs:string" minOccurs="0"/>
+        <xs:element name="info" type="xs:string" minOccurs="0"/>
+      </xs:all>
+    </xs:complexType>
+  
+    <xs:element name="metadata">
+        <xs:complexType>
+            <xs:choice minOccurs="1" maxOccurs="unbounded">
+                <xs:element name="title" type="qualified"/>
+                <xs:element name="creator" type="agent"/>
+                <xs:element name="contributor" type="agent"/>
+                <xs:element name="publisher" type="publisher"/>
+                <xs:element name="date" type="qualified"/>
+                <xs:element name="language" type="simple"/>
+                <xs:element name="description" type="qualified"/>
+                <xs:element name="subject" type="qualified"/>
+                <xs:element name="primarySource" type="simple"/>
+                <xs:element name="coverage" type="qualified"/>
+                <xs:element name="source" type="qualified"/>
+                <xs:element name="citation" type="qualified"/>
+                <xs:element name="relation" type="qualified"/>
+                <xs:element name="collection" type="simple"/>
+                <xs:element name="institution" type="simple"/>
+                <xs:element name="rights" type="qualified"/>
+                <xs:element name="resourceType" type="simple"/>
+                <xs:element name="format" type="simple"/>
+                <xs:element name="identifier" type="qualified"/>
+                <xs:element name="degree" type="qualified"/>
+                <xs:element name="note" type="qualified"/>
+                <xs:element name="meta" type="qualified"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
