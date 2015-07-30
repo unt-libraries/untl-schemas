@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://digital2.library.unt.edu/coda/bagxml/"
+    xmlns="http://digital2.library.unt.edu/coda/bagxml/"
+    elementFormDefault="qualified">
+
+<xs:element name="codaXML">
+    <xs:complexType>
+        <xs:all>
+            <xs:element name="name" type="xs:string"/>	
+            <xs:element name="fileCount" type="xs:string"/>	
+            <xs:element name="payloadSize" type="xs:string"/>	
+            <xs:element name="bagitVersion" type="xs:string"/>	
+            <xs:element name="lastVerified" type="xs:string"/>	
+            <xs:element name="bagInfo">	
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="item" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:all>
+                                    <xs:element name="name" type="xs:string"/>
+                                    <xs:element name="body" type="xs:string"/>
+                                </xs:all>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:all>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>
