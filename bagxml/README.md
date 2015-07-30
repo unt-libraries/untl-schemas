@@ -14,7 +14,9 @@ About
 -----
 
 This schema defines what the UNT Libraries considers to be a valid bagxml
-instance. A bagxml instance is an XML representation of a bag.
+instance. A bagxml instance is an XML representation of a bag, as defined
+by the BagIt specification
+[here](http://www.digitalpreservation.gov/documents/bagitspec.pdf).
 
 
 Requirements
@@ -50,7 +52,7 @@ The total size of the bag payload.
 
 ### bagitVersion ###
 
-The version of the bagIt specs being used.
+The version of the bagIt specification being used.
 
 
 ### lastVerified ###
