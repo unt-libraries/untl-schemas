@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<node:node xmlns:node="http://digital2.library.unt.edu/coda/nodexml/">
+  <node:name>coda-001</node:name>
+  <node:url>http://coda.storage.node.edu/coda-001/</node:url>
+  <node:path>/coda-001</node:path>
+  <node:capacity>23129843985832</node:capacity>
+  <node:size>2013493029009</node:size>
+  <node:lastChecked>2013-04-04 21:23:04</node:lastChecked>
+</node:node>
