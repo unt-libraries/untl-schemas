@@ -10,7 +10,7 @@
             <xs:element name="name" type="xs:string"/>	
             <xs:element name="fileCount" type="xs:unsignedLong"/>	
             <xs:element name="payloadSize" type="xs:unsignedLong"/>	
-            <xs:element name="bagitVersion" type="xs:decimal"/>	
+            <xs:element name="bagitVersion" type="xs:string"/>	
             <xs:element name="lastVerified" type="xs:date"/>	
             <xs:element name="bagInfo">	
                 <xs:complexType>
