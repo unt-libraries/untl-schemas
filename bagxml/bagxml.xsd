@@ -12,22 +12,22 @@
             <xs:element name="payloadSize" type="xs:unsignedLong"/>	
             <xs:element name="bagitVersion" type="xs:string"/>	
             <xs:element name="lastVerified" type="xs:date"/>	
-            <xs:element name="bagInfo">	
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="item" maxOccurs="unbounded">
-                            <xs:complexType>
-                                <xs:all>
-                                    <xs:element name="name" type="xs:string"/>
-                                    <xs:element name="body" type="xs:string"/>
-                                </xs:all>
-                            </xs:complexType>
-                        </xs:element>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
+            <xs:element name="bagInfo" type="baginfoType"/>	
         </xs:all>
     </xs:complexType>
 </xs:element>
+
+<xs:complexType name="baginfoType">
+  <xs:sequence>
+    <xs:element name="item" maxOccurs="unbounded">
+      <xs:complexType>
+        <xs:all>
+          <xs:element name="name" type="xs:string"/>
+          <xs:element name="body" type="xs:string"/>
+        </xs:all>
+      </xs:complexType>
+    </xs:element>
+  </xs:sequence>
+</xs:complexType>
 
 </xs:schema>
