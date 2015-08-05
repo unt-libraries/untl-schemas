@@ -12,6 +12,8 @@
             <xs:element name="payloadSize" type="xs:unsignedLong"/>	
             <xs:element name="bagitVersion" type="xs:string"/>	
             <xs:element name="lastVerified" type="xs:date"/>	
+            <xs:element name="lastStatus" type="xs:string" minOccurs="0"/>
+            <xs:element name="baggingDate" type="xs:date" minOccurs="0"/>
             <xs:element name="bagInfo" type="baginfoType"/>	
         </xs:all>
     </xs:complexType>
