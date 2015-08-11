@@ -31,63 +31,45 @@ The namespace for all elements of a valid bagxml instance must be set to
 ### codaXML ###
 
 This is the root element of a bagxml instance. All the child elements of this
-root element are listed below.
+root element are listed below. All are required.
 
 
 ### name ###
 
 The unique ID of the bag.
 
-* Required: yes
-* Count: 1
-
 
 ### fileCount ###
 
 The number of files in the bag.
-
-* Required: yes
-* Count: 1
 
 
 ### payloadSize ###
 
 The total size of the bag payload.
 
-* Required: yes
-* Count: 1
-
 
 ### bagitVersion ###
 
 The version of the bagIt specification being used.
-
-* Required: yes
-* Count: 1
 
 
 ### lastVerified ###
 
 The date of last verification.
 
-* Required: yes
-* Count: 1
-
 
 ### lastStatus ###
 
-The last status of the bag.
+The last status of the bag. Can only be one of the following options:
 
-* Required: no
-* Count: 0 or 1
+* 'pass'
+* 'fail'
 
 
 ### baggingDate ###
 
 The date the bag was created.
-
-* Required: no
-* Count: 0 or 1
 
 
 ### bagInfo ###
@@ -95,32 +77,21 @@ The date the bag was created.
 The bagInfo element can contain any number of item child elements, which contain
 metadata about the bag itself.
 
-* Required: yes
-* Count: 1
-
 
 #### item ####
 
-An individual metadata 'item'. Must contain the child elements name and body.
-
-* Required: yes
-* Count: 1 or more
+An individual metadata 'item'. Must contain the child elements name and body. This
+element can appear more than once.
 
 
 ##### name #####
 
 The name of the bag metadata item.
 
-* Required: yes
-* Count: 1
-
 
 ##### body #####
 
 The actual metadata.
-
-* Required: yes
-* Count: 1
 
 
 Schema

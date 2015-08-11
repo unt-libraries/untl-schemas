@@ -4,7 +4,7 @@
   <bag:payloadSize>94964994</bag:payloadSize>
   <bag:bagitVersion>0.96</bag:bagitVersion>
   <bag:lastVerified>2015-12-31</bag:lastVerified>
-  <bag:lastStatus>good</bag:lastStatus>
+  <bag:lastStatus>pass</bag:lastStatus>
   <bag:baggingDate>2013-12-23</bag:baggingDate>
   <bag:bagInfo>
     <bag:item>
