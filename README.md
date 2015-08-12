@@ -15,3 +15,10 @@ Schemas
 * untl.xsd
 * unixFileOutput.xsd
 * unixFileOutput.json
+* bagxml.xsd
+
+
+LICENSE
+-------
+
+See LICENSE
