@@ -2,14 +2,6 @@ Bag XML Schema
 ==============
 
 
-Work-In-Progress
-----------------
-
-This readme, the schema, and the example document are all still a
-work-in-progress. Major changes to all the three documents are expected
-to take place.
-
-
 About
 -----
 
