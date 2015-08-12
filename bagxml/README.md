@@ -80,8 +80,12 @@ metadata about the bag itself.
 
 #### item ####
 
-An individual metadata 'item'. Must contain the child elements name and body. This
-element can appear more than once.
+An individual metadata 'item'. Must contain the following child elements:
+
+* name
+* body
+
+This element can appear more than once.
 
 
 ##### name #####
