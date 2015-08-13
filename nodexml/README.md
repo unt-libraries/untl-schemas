@@ -2,13 +2,6 @@ Node XML Schema
 ===============
 
 
-Work-In-Progress
-----------------
-
-This readme, the schema, and the example document/s are all still a
-work-in-progress. Major changes are expected to take place.
-
-
 About
 -----
 
@@ -17,7 +10,7 @@ nodexml instance. A nodexml instance is an XML representation of a
 storage node. Specifically, the nodes represented are the storage
 nodes for bags, which follow the 
 [BagIt](http://www.digitalpreservation.gov/documents/bagitspec.pdf)
-standard.
+format.
 
 
 Requirements
@@ -55,7 +48,7 @@ The full URL of the storage node.
 
 ### path ###
 
-The 
+The path on disk of the storage node.
 
 
 ### capacity ###
