@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="http://digital2.library.unt.edu/coda/nodexml/"
+  xmlns="http://digital2.library.unt.edu/coda/nodexml/"
+  elementFormDefault="qualified">
+
+<xs:element name="node">
+  <xs:complexType>
+    <xs:all>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="url" type="xs:string"/>
+      <xs:element name="path" type="xs:string"/>
+      <xs:element name="capacity" type="xs:unsignedLong"/>
+      <xs:element name="size" type="xs:unsignedLong"/>
+      <xs:element name="lastChecked" type="xs:dateTime"/>
+    </xs:all>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>
