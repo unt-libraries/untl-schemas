@@ -1,5 +1,5 @@
 <queueEntry xmlns="http://digital2.library.unt.edu/coda/queuexml/">
-  <ark>vlt:/12345/coda39204</ark>
+  <ark>ark:/12345/coda39204</ark>
   <oxum>327039156.34</oxum>
   <urlListLink>http://list.of.urls</urlListLink>
   <status>1</status>

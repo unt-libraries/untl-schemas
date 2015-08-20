@@ -40,7 +40,7 @@ oxum of `245189.35`.
 
 ### urlListLink ###
 
-
+The URL for a page that contains links to all the items in the bag.
 
 
 ### status ###
