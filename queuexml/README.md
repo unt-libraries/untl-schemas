@@ -43,22 +43,22 @@ oxum of `245189.35`.
 The URL for a page that contains links to all the items in the bag.
 
 
-### status ###
+### status (Not required)###
 
-The ingestion status of the bag, expressed as an integer.
+The status of the bag, expressed as an integer.
 
 
-### start ###
+### start (Not required)###
 
 The datetime that indicates when the ingestion was started.
 
 
-### end ###
+### end (Not required)###
 
 The datetime that indicates when the ingestion was completed.
 
 
-### position ###
+### position (Not required)###
 
 The 1-based position in the queue.
 
