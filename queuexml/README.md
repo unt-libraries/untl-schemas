@@ -43,7 +43,7 @@ oxum of `245189.35`.
 The URL for a page that contains links to all the items in the bag.
 
 
-### status (Not required)###
+### status ###
 
 The status of the bag, expressed as an integer.
 

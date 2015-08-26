@@ -10,7 +10,7 @@
       <xs:element name="ark" type="xs:string"/>
       <xs:element name="oxum" type="xs:decimal"/>
       <xs:element name="urlListLink" type="xs:string"/>
-      <xs:element name="status" type="xs:nonNegativeInteger" minOccurs="0"/>
+      <xs:element name="status" type="xs:nonNegativeInteger"/>
       <xs:element name="start" type="xs:dateTime" minOccurs="0"/>
       <xs:element name="end" type="xs:dateTime" minOccurs="0"/>
       <xs:element name="position" type="xs:positiveInteger" minOccurs="0"/>
