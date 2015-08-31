@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://digital2.library.unt.edu/coda/validatexml/"
+    xmlns="http://digital2.library.unt.edu/coda/validatexml/"
+    elementFormDefault="qualified">
+
+<xs:element name="validate">
+    <xs:complexType>
+        <xs:all>
+            <xs:element name="identifier" type="xs:string"/>	
+            <xs:element name="last_verified" type="xs:date"/>	
+            <xs:element name="last_verified_status" type="xs:string"/>	
+            <xs:element name="priority_change_date" type="xs:date"/>	
+            <xs:element name="priority" type="xs:integer"/>
+            <xs:element name="server" type="xs:string"/>	
+        </xs:all>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>
