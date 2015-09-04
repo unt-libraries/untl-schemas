@@ -1,0 +1,9 @@
+<queueEntry xmlns="http://digital2.library.unt.edu/coda/queuexml/">
+  <ark>ark:/12345/coda39204</ark>
+  <oxum>327039156.34</oxum>
+  <urlListLink>http://list.of.urls</urlListLink>
+  <status>1</status>
+  <start>2013-05-17T01:12:20Z</start>
+  <end>2013-05-17T01:12:33Z</end>
+  <position>1</position>
+</queueEntry>
