@@ -6,7 +6,8 @@ About
 -----
 
 This schema defines what the UNT Libraries considers to be a valid validatexml
-instance.
+instance. validatexml instances represent bags that are scheduled to be validated.
+Validating here refers to checking the hashes of the bags.
 
 
 Requirements
@@ -26,20 +27,32 @@ root element are listed below. All are required.
 
 ### identifier ###
 
+This is the unique identifier of the bag to be validated.
+
 
 ### last_verified ###
+
+The last date that the bag was validated.
 
 
 ### last_verified_status ###
 
+The status given to the last validation of the bag.
+
 
 ### priority_change_date ###
+
+The date the priority of the bag was last changed.
 
 
 ### priority ###
 
+The current priority in the queue of the bag to be validated.
+
 
 ### server ###
+
+The server on which the bag is located.
 
 
 Schema
