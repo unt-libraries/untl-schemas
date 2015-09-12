@@ -7,7 +7,8 @@ About
 
 This schema defines what the UNT Libraries considers to be a valid validatexml
 instance. validatexml instances represent bags that are scheduled to be validated.
-Validating here refers to checking the hashes of the bags.
+Validating here refers to checking the hashes of the bags. The bags referred to
+here use the [BagIt specifications](www.digitalpreservation.gov/documents/bagitspec.pdf).
 
 
 Requirements
