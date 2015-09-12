@@ -7,12 +7,12 @@
 <xs:element name="validate">
     <xs:complexType>
         <xs:all>
-            <xs:element name="identifier" type="xs:string"/>	
-            <xs:element name="last_verified" type="xs:date"/>	
-            <xs:element name="last_verified_status" type="xs:string"/>	
-            <xs:element name="priority_change_date" type="xs:date"/>	
+            <xs:element name="identifier" type="xs:string"/>
+            <xs:element name="last_verified" type="xs:dateTime"/>
+            <xs:element name="last_verified_status" type="xs:string"/>
+            <xs:element name="priority_change_date" type="xs:dateTime"/>
             <xs:element name="priority" type="xs:integer"/>
-            <xs:element name="server" type="xs:string"/>	
+            <xs:element name="server" type="xs:string"/>
         </xs:all>
     </xs:complexType>
 </xs:element>
