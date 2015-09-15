@@ -9,12 +9,27 @@
         <xs:all>
             <xs:element name="identifier" type="xs:string"/>
             <xs:element name="last_verified" type="xs:dateTime"/>
-            <xs:element name="last_verified_status" type="xs:string"/>
+            <xs:element name="last_verified_status" type="lastVerifiedStatusType"/>
             <xs:element name="priority_change_date" type="xs:dateTime"/>
-            <xs:element name="priority" type="xs:integer"/>
+            <xs:element name="priority" type="priorityType"/>
             <xs:element name="server" type="xs:string"/>
         </xs:all>
     </xs:complexType>
 </xs:element>
+
+<xs:simpleType name="lastVerifiedStatusType">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="Passed"/>
+    <xs:enumeration value="Failed"/>
+    <xs:enumeration value="Unverified"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="priorityType">
+  <xs:restriction base="xs:integer">
+    <xs:enumeration value="0"/>
+    <xs:enumeration value="1"/>
+  </xs:restriction>
+</xs:simpleType>
 
 </xs:schema>
