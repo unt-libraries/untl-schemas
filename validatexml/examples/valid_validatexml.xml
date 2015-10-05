@@ -1,0 +1,8 @@
+<validate:validate xmlns:validate="http://digital2.library.unt.edu/coda/validatexml/">
+  <validate:identifier>ark:/65729/codawe34</validate:identifier>
+  <validate:last_verified>2010-03-04T00:00:00Z</validate:last_verified>
+  <validate:last_verified_status>Unverified</validate:last_verified_status>
+  <validate:priority_change_date>2010-03-04T00:00:00</validate:priority_change_date>
+  <validate:priority>0</validate:priority>
+  <validate:server>server.online.org</validate:server>
+</validate:validate>

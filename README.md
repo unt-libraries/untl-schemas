@@ -16,6 +16,9 @@ Schemas
 * unixFileOutput.xsd
 * unixFileOutput.json
 * bagxml.xsd
+* nodexml.xsd
+* queuexml.xsd
+* validatexml.xsd
 
 
 LICENSE
