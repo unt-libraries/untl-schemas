@@ -25,3 +25,12 @@ LICENSE
 -------
 
 See LICENSE
+
+
+Contributors
+------------
+
+* [Mark Phillips](https://github.com/vphill)
+* Daniel Alemneh
+* Hannah Tarver
+* [Gio Gottardi](https://github.com/somexpert)
